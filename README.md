@@ -39,3 +39,4 @@ http://localhost:3004
 - The OpenAI API key is used only in `app/api/rewrite-resume/route.ts`.
 - The browser calls `/api/rewrite-resume`, so the key is never exposed client-side.
 - There is no auth, database, payment flow, or PDF export in this MVP.
+- GitHub Pages can host only the static frontend. The AI rewrite API needs a server runtime such as local Next.js, Vercel, Render, or another Node host.
